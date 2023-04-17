@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
         <header>
-            <div className="navbar bg-yellow-600">
+            <div className="navbar bg-yellow-500">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -22,7 +22,7 @@ function App() {
                     </div>
                     </div>
                         <div className="navbar-center">
-                        <a className="btn btn-ghost normal-case text-xl"> GRANT A.M.E. CHURCH </a>
+                        <a className="btn btn-ghost normal-case text-blue-900 font-bold text-2xl"> GRANT A.M.E. CHURCH </a>
                         </div>
                         <div className="navbar-end">
                         <button className="btn btn-ghost btn-circle">
@@ -38,9 +38,26 @@ function App() {
             </div>
         </header>
         <main>
-
+            <div className="hero min-h-screen" style={{ backgroundImage: `url("http://grantame-boston.org/templates/untitled/imag…91f5137bd787c8d616a85d4da9dc_grant_logo_trans.png
+")` }}>
+                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-content text-center text-neutral-content">
+                    <div className="max-w-md">
+                        <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button className="btn btn-primary bg-blue-900">Get Started</button>
+                    </div>
+                </div>
+            </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div className="footer footer-center p-4 bg-base-300 text-base-content absolute bottom-0 ">
+                <div>
+                    <p>Copyright © 2023 - Grant A.M.E.
+                        All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
     </div>
   );
 }
