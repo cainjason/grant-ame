@@ -38,17 +38,7 @@ function App() {
             </div>
         </header>
         <main>
-            <div className="hero min-h-screen" style={{ backgroundImage: `url("http://grantame-boston.org/templates/untitled/imag…91f5137bd787c8d616a85d4da9dc_grant_logo_trans.png
-")` }}>
-                <div className="hero-overlay bg-opacity-60"></div>
-                <div className="hero-content text-center text-neutral-content">
-                    <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary bg-blue-900">Get Started</button>
-                    </div>
-                </div>
-            </div>
+
         </main>
         <footer>
             <div className="footer footer-center p-4 bg-base-300 text-base-content absolute bottom-0 ">
@@ -61,5 +51,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
